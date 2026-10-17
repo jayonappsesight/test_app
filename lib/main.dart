@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Flutter Main branch'),
+      home: const MyHomePage(title: 'Flutter '),
     );
   }
 }
@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('You have Main branch this many times:'),
+            const Text('You have pushed  times:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
@@ -114,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment Main branch values ',//fffff
+        tooltip: 'Increment  values ',//fffff
         child: const Icon(Icons.add,color: Colors.red,),//fghfierhfiernfreufdheifeurfie/
         //thu3gntcog3u//dsdd
       ),
